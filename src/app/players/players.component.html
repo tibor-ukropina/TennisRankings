@@ -1,14 +1,16 @@
 <h2> Top {{ rankings.length }} Players </h2>
 <h3>ATP Men's Singles Tennis Rankings</h3>
 
-<table>
+<table class = "table">
     <tr>
+        <th> Rank</th>
         <th> Player </th>
         <th> Points</th>
         <th> Age</th>
         <th> Tournaments Played</th>
     </tr>
-    <tr *ngFor="let ranking of rankings">
+    <tr *ngFor="let ranking of rankings; index as i">
+        <td>{{i + 1}}</td>
         <td>{{ranking.player}}</td>
         <td>{{ranking.points}}</td>
         <td>{{ranking.age}}</td>
