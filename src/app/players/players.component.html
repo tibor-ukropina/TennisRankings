@@ -1,0 +1,21 @@
+<h2> Top {{ rankings.length }} Players </h2>
+<h3>ATP Men's Singles Tennis Rankings</h3>
+
+<table>
+    <tr>
+        <th> Player </th>
+        <th> Points</th>
+        <th> Age</th>
+        <th> Tournaments Played</th>
+    </tr>
+    <tr *ngFor="let ranking of rankings">
+        <td>{{ranking.player}}</td>
+        <td>{{ranking.points}}</td>
+        <td>{{ranking.age}}</td>
+        <td>{{ranking.tournPlayed}}</td>
+    </tr>
+    <tr>
+
+    </tr>
+    
+</table>
