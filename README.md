@@ -1,6 +1,6 @@
 In this project I used Angular 14 to create a dynamic table which displays the top ranked players from mens ATP singles tennis. 
 I used the Angular CLI to create a service which passes data from the service into the constructor of the players component. 
-This table may automatically update based on the data which is stored in the hard-coded array of objects. 
+This table may automatically update based on the data which is stored in the hard-coded array of objects. This projects also demonstrates use of other angular concepts such as pipes. 
 
 
 <img width="1418" alt="Screen Shot 2022-11-15 at 1 50 20 PM" src="https://user-images.githubusercontent.com/77939216/202001502-9a1916c0-a9f6-4157-851f-e40fa30b3660.png">
