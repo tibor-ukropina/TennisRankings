@@ -12,7 +12,7 @@
     <tr *ngFor="let ranking of rankings; index as i">
         <td>{{i + 1}}</td>
         <td>{{ranking.player}}</td>
-        <td>{{ranking.points}}</td>
+        <td>{{ranking.points | number}}</td>
         <td>{{ranking.age}}</td>
         <td>{{ranking.tournPlayed}}</td>
     </tr>
